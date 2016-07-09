@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    used -u option for getting lines with unified context.
+    It showed all the lines which differed in some way.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Some undesirable changes made in newer versions can be traced back easily and 
+    can be restored by using version control for very large files.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros : It saves us from unnecessary copies of version, gives us choice for
+           logically choosing when to save a version.
+           They can be easily organised.
+    Cons : If the user is forgetful then a great problem can take place if
+    	   previous version is not saved.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Its maybe because of the utility or purpose of the vcs.
+    Each vcs is suitable for a certain kind of task.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log command can be used to get the history of all the commits to the repository.
+    git diff command can be used to see the differences in lines of the two commits in arguments.
+
+    Usage: git log 
+    if u are finding a commit with some commit description: git log grep="$expression"
+    Usage: git diff commit1 commit2
+How might using version control make you more confident to make changes that
+could break something?
+
+    I would be confident to try out implementing new features without worrying about losing the previous working features of 
+    the software or program I am working on, as I can always move back if I get the new idea is rather not better 
+    or the old code needs to be used for implementing the new one differently than what I have been trying.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would write my big projects with proper version control tricks learnt in the course from now onwards.
+     
