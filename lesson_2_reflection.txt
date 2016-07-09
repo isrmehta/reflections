@@ -29,6 +29,9 @@ How do the diagrams help you visualize the branch structure?
    You can avoid making terrible mistakes loosing important commits if you have a good idea of the state of the repository.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+   Merging to branches results into a new commit which has all new changes of both branches if they didn't exist before 
+   but if they were present before and not present in any of two branches then it is not reflected in the final commit.
+   It represents and gives us idea about what would our repository look like after branches have been merged.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
