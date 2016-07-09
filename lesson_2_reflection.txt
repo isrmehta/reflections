@@ -20,6 +20,9 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+   I may want to try out some new feature or fix some bug but I may be uncertain that it would work.
+   Creating branches would help me deal with this, further when I am sure I can merge the branches to master.
+   Helping me to preserve my clean code at the same time allowing me to try out my adventure :D. 
 
 How do the diagrams help you visualize the branch structure?
 
