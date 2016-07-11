@@ -36,4 +36,17 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-  
+    When you want to modify or add some functionality to the existing working code but you want to be sure that you
+    have the code all set and reviewed without bugs with your collaborators, then creating a branch is a good choice.
+    Even for review purpose for your own concern and keep the existing code working you may want to make changes into 
+    a separate branch.
+
+Important Commands:
+
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
