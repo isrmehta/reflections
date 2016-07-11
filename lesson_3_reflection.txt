@@ -30,7 +30,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    
+    Collaborating projects without using Git or GitHub is unimaginable. They provide best features of all the best VCS.
    
 
 When would you want to make changes in a separate branch rather than directly in
